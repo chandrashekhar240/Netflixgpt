@@ -2,7 +2,12 @@
   - Create react app
   - Configured tailwindcss
   - Header
+  - Routing
   - LogIn Form
+  - Form Validation
+  - Firebase setUp
+  -Deploying our app to production
+  g
 
 
 
