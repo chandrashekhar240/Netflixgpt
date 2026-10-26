@@ -6,8 +6,10 @@
   - LogIn Form
   - Form Validation
   - Firebase setUp
-  -Deploying our app to production
-  g
+  - Deploying our app to production
+  - Implement Sign In user api
+  - created reduc store with user Slice 
+  
 
 
 
