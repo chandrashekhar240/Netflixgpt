@@ -1,6 +1,6 @@
 import {useRef, useState} from "react"
 import {Validata} from "../utils/Validate"
-import { createUserWithEmailAndPassword  , signInWithEmailAndPassword} from "firebase/auth";
+import { createUserWithEmailAndPassword  , signInWithEmailAndPassword ,updateProfile} from "firebase/auth";
 import{auth} from "../utils/Firebase"
 import {useNavigate} from "react-router-dom";
 
@@ -15,6 +15,7 @@ const LogInForm = () => {
 
     const email = useRef(null);
     const password = useRef(null);
+    const name = useRef(null);
    // const phoneNum = useRef(null);
 
     const[errMessage , setErrMessage] = useState(null);
@@ -30,8 +31,15 @@ const LogInForm = () => {
             .then((userCredential) => {
                 // Signed up 
                 const user = userCredential.user;
-                console.log(user);
-                navigate("/browse");
+                updateProfile(user, {
+                displayName: name.current.value, photoURL: "https://example.com/jane-q-user/profile.jpg"
+                }).then(() => {
+                // Profile updated!
+                navigate("/browse")
+                }).catch((error) => {
+                // An error occurred
+                setErrMessage(errMessage);
+                });
   })
   .catch((error) => {
                 const errorCode = error.code;

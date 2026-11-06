@@ -8,7 +8,16 @@
   - Firebase setUp
   - Deploying our app to production
   - Implement Sign In user api
-  - created reduc store with user Slice 
+  - created redux store with user Slice 
+  - Implemented Sign Out
+  - Register TMDB API & create an app & get access token
+  - get data from TMDB now playing movies list API
+  - created custom hook for now playing movies
+  - update store with movies data
+  - fetch data for trailer video
+  - update store with trailer video data
+  - embedded the youtube video and make it autoplay and mute
+  - and added tailwind to make main container look awesome
   
 
 
