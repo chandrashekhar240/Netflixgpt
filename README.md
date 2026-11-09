@@ -24,6 +24,8 @@
   - TMDB image CDN URL
   - made the browse page look amazing with tailwind css
   - made the gpt search page
+  - multi language feature
+  
   
   
 
