@@ -17,3 +17,8 @@ export const SUPPORTED_LANGUAGES = [
   { code: 'hindi', name: 'Hindi' },
   { code: 'spanish', name: 'Spanish' }
 ]
+
+export const GPT_BG = "https://wallpapercave.com/wp/wp5242993.jpg";
+
+export const GEMINI_KEY1 = process.env.REACT_APP_GEMINI_KEY1;
+export const GEMINI_KEY2 = process.env.REACT_APP_GEMINI_KEY2;

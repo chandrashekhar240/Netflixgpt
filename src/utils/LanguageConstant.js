@@ -1,14 +1,14 @@
 const Lang = {
     en : {
-        search : "Search",
+        search : "ASK AI",
         gptSeachPlaceHolder: "what would you like to watch?",
     },
     hindi: {
-        search : "खोज",
+        search : "AI से पूछें",
         gptSeachPlaceHolder: "आप क्या देखना चाहेंगे?",
     },
     spanish: {
-        search : "Buscar",
+        search : "pregúntale a la IA",
         gptSeachPlaceHolder: "¿Qué te gustaría ver?",
     }
 }

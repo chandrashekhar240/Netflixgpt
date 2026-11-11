@@ -25,6 +25,8 @@
   - made the browse page look amazing with tailwind css
   - made the gpt search page
   - multi language feature
+  - fetched the search movie api from tmdb
+  - maded the gpt search page to show the result of the movies asked
   
   
   

@@ -6,6 +6,8 @@ const gptSlice = createSlice({
 
     initialState: {
         showGptSearch: localStorage.getItem("showGptSearch") === "true",
+        movieNames : null,
+        movieResults : null,
     },
 
     reducers: {
@@ -16,10 +18,15 @@ const gptSlice = createSlice({
                 "showGptSearch",
                 state.showGptSearch
             );
+        },
+        addGptMovieResults: (state , action) => {
+            const{movieNames , movieResults} = action.payload;
+            state.movieNames = movieNames;
+            state.movieResults = movieResults;
         }
     }
 });
 
-export const { toggleGptSearch } = gptSlice.actions;
+export const { toggleGptSearch , addGptMovieResults } = gptSlice.actions;
 
 export default gptSlice.reducer;
