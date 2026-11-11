@@ -5,10 +5,10 @@ import { GPT_BG } from "../utils/constants";
 
 const GptSearch = () => {
     return (
-        <div className="">
-            <div className='fixed inset-0 -z-10'>
-                <img className="h-full w-full object-cover"
-                src={GPT_BG} alt ="Background poster wall"/>
+        <div className="pt-[25%] md:pt-0">
+            <div className='fixed inset-0 -z-10 bg-black/90 backdrop-blur-md w-full'>
+                {/* <img className="h-full w-full object-cover"
+                src={GPT_BG} alt ="Background poster wall"/> */}
             </div>
             <GptSearchBar/>
             <GptMovieSuggestions/>

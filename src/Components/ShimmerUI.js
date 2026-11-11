@@ -2,7 +2,7 @@ import ShimmerCard from "./ShimmerCard"
 
 const ShimmerUI = () => {
     return(
-        <div>
+        <div className="flex flex-wrap">
             <ShimmerCard/>
             <ShimmerCard/>
             <ShimmerCard/>
@@ -16,3 +16,5 @@ const ShimmerUI = () => {
         </div>
     )
 }
+
+export default ShimmerUI;

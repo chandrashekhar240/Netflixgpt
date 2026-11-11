@@ -54,9 +54,9 @@ const Header = () => {
     const showGptSearch = useSelector(store => store.gpt?.showGptSearch);
 
     return (
-        <div className="absolute px-24 py-8 bg-gradient-to-b from-black z-50 flex justify-between items-center w-full">
+        <div className="absolute px-24 py-8 bg-gradient-to-b from-black z-50 flex flex-col md:flex-row justify-between  items-center w-full">
 
-            <img src={LOGO} alt="Netflix Logo" width="120px" height="40px" />
+            <img src={LOGO} alt="Netflix Logo" width="120px" height="40px" className="mx-auto pb-2 md:mx-0 "/>
             {user ? (
                 <div className="flex items-center space-x-2">
                     <span className="text-white font-bold">

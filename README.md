@@ -27,7 +27,10 @@
   - multi language feature
   - fetched the search movie api from tmdb
   - maded the gpt search page to show the result of the movies asked
-  
+  - reused MovieList 
+  - container to make gpt movie container
+  - memoization(reduce the number of unnecessary api calss)
+  - maded the site responsive
   
   
 

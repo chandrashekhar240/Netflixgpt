@@ -107,7 +107,7 @@ const LogInForm = () => {
                     e.preventDefault();
                     handleButtonClick();
                 }}
-                className="w-4/12 absolute p-12 bg-black/40 backdrop-blur-md top-1/2 -translate-y-1/2 mx-auto right-0 left-0 text-white"
+                className="w-2/3 md:w-4/12 absolute p-12 bg-black/40 backdrop-blur-md top-1/2 -translate-y-1/2 mx-auto right-0 left-0 text-white"
             >
 
                 <h1 className="font-extrabold text-3xl p-2 m-2">
